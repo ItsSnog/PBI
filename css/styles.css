@@ -75,9 +75,19 @@ nav .menu ul .active a {
   border: 1px solid #2d89ef;
 }
 .credibility_logos {
-  height: 92px;
-  background: url("http://pushbuttoninfluence.com/show/wp-content/uploads/2016/02/seen.jpg");
-  background-size: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.credibility_logos .partner {
+  float: left;
+  opacity: 0.6;
+}
+.credibility_logos .partner:hover {
+  opacity: 1;
+}
+.clear {
+  clear: both;
 }
 .subscribe {
   padding: 20px 0;
