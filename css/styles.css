@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav .logo {
+  width: 30%;
+}
+nav .logo img {
+  width: 200px;
+  margin-left: 50px;
+}
+nav .menu {
+  width: 70%;
+  text-align: right;
+}
+nav .menu ul {
+  margin-right: 50px;
+}
+nav .menu ul li {
+  list-style: none;
+  margin: 20px 25px 0 0;
+  display: inline-block;
+  line-height: 80px;
+}
+nav .menu ul li i:hover {
+  color: #2d89ef;
+  cursor: pointer;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  color: #808080;
+}
+nav .menu ul li a:hover {
+  color: #2d89ef;
+}
+nav .menu ul .active a {
+  color: #2d89ef;
+}
+.banner {
+  background-image: url("http://pushbuttoninfluence.com/show/wp-content/uploads/2016/02/banner-3-1.jpg");
+  padding: 150px 0;
+  text-align: center;
+}
+.banner h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.banner p {
+  color: #f9f9f9;
+  margin-bottom: 10px;
+}
+.banner button {
+  background-color: #2d89ef;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.banner button:hover {
+  background-color: transparent;
+  color: #2d89ef;
+  cursor: pointer;
+  border: 1px solid #2d89ef;
+}
+.credibility_logos {
+  height: 92px;
+  background: url("http://pushbuttoninfluence.com/show/wp-content/uploads/2016/02/seen.jpg");
+  background-size: 100% 100%;
+}
+.subscribe {
+  padding: 20px 0;
+  background-color: #08b6e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.subscribe .sb-block1 {
+  flex-shrink: 500px;
+  margin-right: 50px;
+}
+.subscribe .sb-block1 h1 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.subscribe .sb-block1 img {
+  width: 200px;
+}
+.subscribe .sb-block2 h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.subscribe .sb-block2 ul li {
+  color: #fff;
+  line-height: 20px;
+}
+.featured_guests h1 {
+  text-align: center;
+  color: #333;
+  margin: 40px 0;
+  font-size: 2em;
+}
+.featured_guests h1 span {
+  color: #08b6e6;
+}
+.featured_guests img {
+  float: left;
+  margin-right: 10px;
+}
+.featured_guests .about_guests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.featured_guests .about_guests .guest {
+  margin: 20px 10px;
+  width: 40%;
+}
+.featured_guests .about_guests .guest .photo_guest {
+  height: 280px;
+  float: left;
+}
+.featured_guests .about_guests .guest .smt_about_guest p {
+  color: #666;
+}
+.featured_guests .about_guests .guest .smt_about_guest .title {
+  margin-bottom: 10px;
+  color: #08b6e6;
+  font-size: 1.5em;
+}
+.latest_episodes {
+  background-color: #1c1c1c;
+}
+.latest_episodes ul li {
+  color: #08b6e6;
+  margin-left: 110px;
+}
+.latest_episodes ul li a {
+  color: #08b6e6;
+  text-decoration: none;
+}
+.latest_episodes h1 {
+  text-align: center;
+  color: #fff;
+  padding: 50px 0 30px 0;
+  font-size: 2em;
+}
+.latest_episodes h1 span {
+  color: #08b6e6;
+}
+.latest_episodes .episodes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.latest_episodes .episodes .episod {
+  width: 20%;
+  margin-left: 30px;
+}
+.latest_episodes .episodes .episod img {
+  margin-bottom: 25px;
+  width: 100%;
+}
+.latest_episodes .episodes .episod a {
+  text-decoration: none;
+  color: #08b6e6;
+  margin-bottom: 15px;
+}
+.latest_episodes .episodes .episod p {
+  color: #666;
+  margin-top: 10px;
+}
+.latest_episodes button {
+  color: #08b6e6;
+  border: 1px solid #08b6e6;
+  background: none;
+  width: 150px;
+  position: relative;
+  left: 45%;
+  padding: 10px 0;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 3px;
+  margin-bottom: 80px;
+  letter-spacing: 1px;
+}
+.latest_episodes button:hover {
+  background-color: #2d89ef;
+  border: none;
+  color: #1c1c1c;
+  letter-spacing: 1px;
+}
+.popular_episodes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.popular_episodes .list_episodes {
+  width: 50%;
+  margin-right: 40px;
+}
+.popular_episodes .list_episodes h1 {
+  margin: 30px 0;
+}
+.popular_episodes .list_episodes h1 span {
+  color: #08b6e6;
+}
+.popular_episodes .list_episodes article {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 130px;
+}
+.popular_episodes .list_episodes article img {
+  float: left;
+  margin-right: 10px;
+}
+.popular_episodes .list_episodes article a {
+  text-decoration: none;
+  color: #3e3e3e;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.popular_episodes .list_episodes article p {
+  color: #808080;
+  font-size: 0.9em;
+}
+.popular_episodes .find_fb {
+  width: 20%;
+}
+.popular_episodes .find_fb h3 {
+  margin: 30px 0;
+  font-size: 1.1em;
+}
+.popular_episodes .find_fb h3 span {
+  color: #08b6e6;
+}
+.how_to_consume {
+  background-color: #ababab;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.how_to_consume h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+.how_to_consume h1 span {
+  color: #08b6e6;
+}
+.how_to_consume p {
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+.how_to_consume .category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.how_to_consume .category > div {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.how_to_consume .category > div .number {
+  width: 50px;
+  margin-right: 10px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #00f;
+  position: relative;
+}
+.how_to_consume .category > div .number p {
+  position: absolute;
+  left: 34%;
+  top: 20%;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+.how_to_consume .category > div .link p {
+  font-size: 1.2em;
+}
+.how_to_consume .category > div .link span {
+  color: #08b6e6;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+.how_to_consume .category > div .link img {
+  border-radius: 10px;
+  margin-top: -10px;
+}
+.how_to_consume .second .link img {
+  width: 102px;
+  height: 38px;
+}
+.footer {
+  background-color: #030402;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer > div {
+  width: 40%;
+}
+.footer .pbi img {
+  width: 80%;
+  margin-bottom: 30px;
+}
+.footer .pbi p {
+  font-size: 0.8em;
+  width: 80%;
+  color: #808080;
+  background: none;
+}
+.footer .partner_detal {
+  text-align: center;
+}
+.footer .partner_detal h2 {
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.footer .partner_detal a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #08b6e6;
+  color: #08b6e6;
+}
+.footer .partner_detal a:hover {
+  border: none;
+  background-color: #08b6e6;
+  color: #030402;
+}
+footer {
+  text-align: center;
+  background-color: #151414;
+  padding: 10px 0;
+}
+footer p {
+  color: #808080;
+  font-size: 0.8em;
+}
